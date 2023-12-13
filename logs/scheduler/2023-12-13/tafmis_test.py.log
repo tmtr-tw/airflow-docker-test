@@ -1564,3 +1564,10 @@ NameError: name 'extract' is not defined
 [2023-12-13T13:32:41.173+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:32:41.172+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-13T13:32:41.193+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:32:41.193+0000] {dag.py:3722} INFO - Setting next_dagrun for tafmis_test_data_fetch to None, run_after=None
 [2023-12-13T13:32:41.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tafmis_test.py took 0.140 seconds
+[2023-12-13T13:33:11.433+0000] {processor.py:157} INFO - Started process (PID=1036) to work on /opt/airflow/dags/tafmis_test.py
+[2023-12-13T13:33:11.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tafmis_test.py for tasks to queue
+[2023-12-13T13:33:11.443+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.442+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tafmis_test.py
+[2023-12-13T13:33:11.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tafmis_test_data_fetch']) retrieved from /opt/airflow/dags/tafmis_test.py
+[2023-12-13T13:33:11.502+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T13:33:11.526+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.526+0000] {dag.py:3722} INFO - Setting next_dagrun for tafmis_test_data_fetch to None, run_after=None
+[2023-12-13T13:33:11.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tafmis_test.py took 0.125 seconds

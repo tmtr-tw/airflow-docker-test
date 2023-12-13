@@ -1319,3 +1319,10 @@
 [2023-12-13T13:32:41.185+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:32:41.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-13T13:32:41.209+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:32:41.208+0000] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
 [2023-12-13T13:32:41.235+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_dag.py took 0.134 seconds
+[2023-12-13T13:33:11.442+0000] {processor.py:157} INFO - Started process (PID=1037) to work on /opt/airflow/dags/test_dag.py
+[2023-12-13T13:33:11.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2023-12-13T13:33:11.447+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2023-12-13T13:33:11.459+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /opt/airflow/dags/test_dag.py
+[2023-12-13T13:33:11.501+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.500+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T13:33:11.526+0000] {logging_mixin.py:154} INFO - [2023-12-13T13:33:11.526+0000] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-12-13T13:33:11.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_dag.py took 0.115 seconds
